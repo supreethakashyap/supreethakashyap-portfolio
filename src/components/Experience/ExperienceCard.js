@@ -8,11 +8,26 @@ function ExperienceCards(props) {
         <strong className="purple">Work Experience</strong>
       </h1>
       <Row>
+      <Col xs={12} md={6} className="mb-4">
+          <Card className="expCard quote-card-view">
+            <Card.Body>
+              <h2 className="card-title">Quality Analytics and Insights Co-Op</h2>
+              <p className="exp-body">Johnson & Johnson (May 2025 - Present)</p>
+              <ul>
+                <li className="exp-body">Migrated legacy SAS SQL workflows to Databricks SQL, improving scalability and maintainability.</li>
+                 <li className="exp-body">Built interactive Power BI dashboards connected to Databricks for real-time quality insights.</li>
+                 <li className="exp-body">Standardized reporting interfaces to enhance usability and consistency across analytics reports.</li>
+                 <li className="exp-body">Partnered with cross-functional teams to deliver data-driven, business-focused analytics solutions.</li>
+                <br/>
+              </ul>
+            </Card.Body>
+          </Card>
+        </Col>
         <Col xs={12} md={6} className="mb-4">
           <Card className="expCard quote-card-view">
             <Card.Body>
               <h2 className="card-title">Application Development Analyst</h2>
-              <p className="exp-body">Accenture Solutions Pvt Ltd (Sept 2021 - Present)</p>
+              <p className="exp-body">Accenture Solutions Pvt Ltd (Sept 2021 - Aug 2024)</p>
               <ul>
                 <li className="exp-body">
                   Primarily responsible for developing web applications including a supply chain management tool using Blazor and a seat management system with Angular.</li>

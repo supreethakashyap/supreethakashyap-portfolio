@@ -6,6 +6,36 @@ const ProjectCards = () => {
     <section>
       <Container>
         <Row>
+        <Col xs={12} md={4} className="mb-4">
+            <Card className='projectCard'>
+              <Card.Body>
+                <Card.Title><strong className='purple'>JJVC Analytics Modernization | Johnson & Johnson </strong></Card.Title>
+                <Card.Text>
+                  <ul>
+                    <li style={{color:"black"}}>Migrated legacy SAS SQL analytics workflows to Databricks SQL, improving scalability, performance, and maintainability.</li>
+                    <li style={{color:"black"}}>Built interactive Power BI dashboards to replace static reports and enable real-time quality insights.</li>
+                    <li style={{color:"black"}}>Standardized reporting interfaces to ensure consistency and improved usability across analytics teams.</li>
+                  </ul>
+                 
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} md={4} className="mb-4">
+            <Card className='projectCard'>
+              <Card.Body>
+                <Card.Title><strong className='purple'>Local Experience Discovery Platform | University of Texas at Arlington </strong></Card.Title>
+                <Card.Text>
+                  <ul>
+                    <li style={{color:"black"}}>Designed and implemented a relational database schema using SQL to support bookings, reviews, and analytics.</li>
+                    <li style={{color:"black"}}>Developed optimized and complex queries to ensure efficient data retrieval and data integrity.</li>
+                    <li style={{color:"black"}}>Supported performance analytics and reporting for user and business insights.</li>
+                  </ul>
+                 
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
           <Col xs={12} md={4} className="mb-4">
             <Card className='projectCard'>
               <Card.Body>

@@ -8,16 +8,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            My goal is to apply data-driven decision-making and advanced analytical techniques
-            to drive business growth and optimize processes. 
-            I'm also a developer with experience in database management and application development. 
-            Currently pursuing a master's in <strong className="purple">Computer Science</strong> with a focus on database systems and analytics.
-            <br />
-            Additionally, I'm an <strong className="purple">AWS Certified Cloud Practitioner.</strong>
-            <br />
-            I am a quick learner and collaborative team player with a strong work ethic.
-            <br />
-            <br />
+          I'm a Computer Science graduate student specializing in data analytics, database systems, and Software Engineering. I currently work as a Quality Analytics and Insights Co-Op at Johnson & Johnson, modernizing analytics pipelines and building interactive Power BI dashboards.
+          With prior experience at Accenture as an Application Development Analyst, I've developed scalable web applications and optimized relational databases to support business-critical systems. I'm an AWS Certified Cloud Practitioner, a quick learner, and a collaborative team player.
             Apart from coding, other activities that I love to do:
           </p>
           <ul>
